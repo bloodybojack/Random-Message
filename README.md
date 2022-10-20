@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aphorisms
 ## A simple program that prints thought-provoking messages of wisdom every time the program is run. 
 
