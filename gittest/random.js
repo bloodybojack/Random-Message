@@ -40,7 +40,6 @@ let aphroisms = [
 
 function randomMessage(array) {
     let randomNum = Math.floor(Math.random() * array.length);
-    console.log(randomNum);
     return array[randomNum];
 }
 
