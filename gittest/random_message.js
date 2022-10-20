@@ -29,12 +29,12 @@ let aphroisms = [
     'In the face of adversity, be grateful, for such opportunities do not come by easily.',
     'When conflict and adversity arise, always preserve a spacious heart.',
     'Forgive those who unintentionally hurt us. Do not be someone who is easily hurt by others.',
-    'When life is safe and smooth, we can easily lose our direction. Yet even a small setback or misfortune can awaken our conscience, and nurture the seeds of kindness.',
+    'When life is safe and smooth, we can easily lose our direction. Yet even a small setback or misfortune can awaken our conscience and nurture the seeds of kindness.',
     'Believe in yourself, but do not be attached to your own point of view.',
     'We cannot love when filled with suspicion. We cannot trust when filled with doubts. We cannot forgive when unwilling to believe.',
     'The more mistrust we feel, the less confidence we have.',
     'A truly successful person is accepted by everyone and accepts everyone.',
-    'How can we be free from the suffering of burth and death? Only when we nurture our heart with joy and unselfish giving can we truly release our attachments.',
+    'How can we be free from the suffering of birth and death? Only when we nurture our heart with joy and unselfish giving can we truly release our attachments.',
     'Let go of all worries, only then will you experience  the happiness of a compassionate heart.'
 ];
 
@@ -43,4 +43,8 @@ function randomMessage(array) {
     return array[randomNum];
 }
 
-console.log(randomMessage(aphroisms));
+console.log('\nWelcome.\n');
+console.log('Every time you run this application, you shall receieve a Jing-Si aphorism.');
+console.log('For this time, the aphorism is this:');
+console.log(`\n"${randomMessage(aphroisms)}"\n`);
+console.log('See you later\n')
