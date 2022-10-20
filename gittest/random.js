@@ -1,5 +1,3 @@
-console.log('FUCK THE WORLD');
-
 let aphroisms = [
     'The beauty of a group lies in the refinement of its individuals.',
     'A refined disposition is naturally expressed in the way a person walks, lives, sits, and sleeps.',
@@ -27,7 +25,7 @@ let aphroisms = [
     'Life becomes meaningful when we shoulder responsibilities. Avoiding responsibilities makes our life empty.',
     'Do not ask for less responsibility to be free and relaxed - ask for more strength.',
     'Rather than worry about the condition of our society, why not replace it with confidence and with dedication to contribute with loving-kindness?',
-    'Even the tiniest bolt must be screwed on tightly in order to preform its best.',
+    'Even the tiniest bolt must be screwed on tightly in order to perform its best.',
     'In the face of adversity, be grateful, for such opportunities do not come by easily.',
     'When conflict and adversity arise, always preserve a spacious heart.',
     'Forgive those who unintentionally hurt us. Do not be someone who is easily hurt by others.',
@@ -40,6 +38,10 @@ let aphroisms = [
     'Let go of all worries, only then will you experience  the happiness of a compassionate heart.'
 ];
 
-function hobo() {
-    
+function randomMessage(array) {
+    let randomNum = Math.floor(Math.random() * array.length);
+    console.log(randomNum);
+    return array[randomNum];
 }
+
+console.log(randomMessage(aphroisms));
